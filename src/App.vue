@@ -3,8 +3,7 @@
     <template v-slot="{user}">
     <div class="nav-link_block">
       <RouterLink class="link_nav" to="/">
-        <inline-svg
-      
+        <inline-svg    
         src="/images/icon.svg"
         width="80"
         height="20"
