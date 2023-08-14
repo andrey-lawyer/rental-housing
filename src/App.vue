@@ -5,7 +5,7 @@
       <RouterLink class="link_nav" to="/">
         <inline-svg
       
-        src="/src/images/Group 8.svg"
+        src="/src/images/icon.svg"
         width="80"
         height="20"
       />
@@ -24,8 +24,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import Layout from '@/components/LayoutHeader.vue'
-import type { PropType } from 'vue';
-import type ICurrentUser from './type/userType';
 
 </script>
 
