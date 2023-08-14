@@ -5,7 +5,7 @@
       <RouterLink class="link_nav" to="/">
         <inline-svg
       
-        src="/src/images/icon.svg"
+        src="/images/icon.svg"
         width="80"
         height="20"
       />

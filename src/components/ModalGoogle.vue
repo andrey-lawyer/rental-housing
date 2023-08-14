@@ -20,7 +20,7 @@ const {
     position: relative;
     width: 200px;
     height: 200px;
-    background: url('src/images/google.jpg') no-repeat ;
+    background: url('/images/google.jpg') no-repeat ;
     background-size: contain;
 }
 .button_google{
