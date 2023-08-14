@@ -29,13 +29,15 @@ const { store } = createDirectStore({
           error
         } = await supabase.auth.getUser()
         if (error) {
-          if (error.message === 'User not found') {
+          if (error.message === 'User not found'|| error.message ==="invalid claim: missing sub claim" ) {
             return console.log(error.message)
-          } else return toast.error(error.message)
+          } else 
+          return toast.error(error.message)
         }
         commit('setUser', { ...user?.user_metadata, id: user?.id })
       } catch (error) {
-        if (error instanceof Error) toast.error(error.message)
+        if (error instanceof Error) 
+        toast.error(error.message)
       } finally {
         commit('setLoading', false)
       }
